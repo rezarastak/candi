@@ -40,7 +40,7 @@ TIC_GLOBAL="$(${DATE_CMD} +%s)"
 ################################################################################
 # Parse command line input parameters
 PREFIX=~/deal.ii-candi
-PROCS=1
+PROCS=8
 CMD_PACKAGES=""
 
 while [ -n "$1" ]; do
